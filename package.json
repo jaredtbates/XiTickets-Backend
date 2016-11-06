@@ -1,5 +1,5 @@
 {
-  "name": "XiTickets-Backend",
+  "name": "xitickets-backend",
   "version": "1.0.0",
   "main": "server/server.js",
   "scripts": {
@@ -25,9 +25,9 @@
     "nsp": "^2.1.0"
   },
   "repository": {
-    "type": "",
-    "url": ""
+    "type": "git",
+    "url": "https://github.com/XiTickets/Backend.git"
   },
-  "license": "UNLICENSED",
+  "license": "MIT",
   "description": "XiTickets-Backend"
 }
