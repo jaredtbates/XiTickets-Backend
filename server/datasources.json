@@ -1,0 +1,12 @@
+{
+  "db": {
+    "host": "ds145997.mlab.com",
+    "port": 45997,
+    "url": "",
+    "database": "tickets",
+    "password": "tickets",
+    "name": "mongo",
+    "user": "tickets",
+    "connector": "mongodb"
+  }
+}

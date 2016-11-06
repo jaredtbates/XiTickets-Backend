@@ -1,0 +1,35 @@
+{
+  "name": "Show",
+  "plural": "Shows",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "logoUrl": {
+      "type": "string",
+      "required": true
+    },
+    "adultCost": {
+      "type": "number",
+      "required": true
+    },
+    "childCost": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
