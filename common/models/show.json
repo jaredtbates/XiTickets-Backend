@@ -29,7 +29,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "events": {
+      "type": "embedsMany",
+      "model": "Event",
+      "property": "eventList"
+    }
+  },
   "acls": [],
   "methods": {}
 }
