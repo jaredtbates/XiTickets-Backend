@@ -31,9 +31,9 @@
   "validations": [],
   "relations": {
     "events": {
-      "type": "embedsMany",
+      "type": "hasMany",
       "model": "Event",
-      "property": "eventList"
+      "foreignKey": ""
     }
   },
   "acls": [],
