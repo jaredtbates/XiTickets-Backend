@@ -5,7 +5,7 @@
     "url": "",
     "database": "tickets",
     "password": "tickets",
-    "name": "mongo",
+    "name": "db",
     "user": "tickets",
     "connector": "mongodb"
   }
