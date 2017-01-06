@@ -1,0 +1,30 @@
+{
+  "name": "Seat",
+  "plural": "Seats",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "column": {
+      "type": "number",
+      "required": true
+    },
+    "blanksToLeft": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    }
+  },
+  "validations": [],
+  "relations": {
+    "row": {
+      "type": "belongsTo",
+      "model": "Row",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

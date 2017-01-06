@@ -1,0 +1,20 @@
+{
+  "name": "Row",
+  "plural": "Rows",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "seats": {
+      "type": "hasMany",
+      "model": "Seat",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
